@@ -33,3 +33,7 @@ winston level = menentukan pentingnya log contoh:
 Daily Rotate File solusi file transport yang sangat berbahaya ketika app berjalan dalam jangka waktu lama, sehingga menyebabkan ukuran file semakin membesar
 
 Daily Rotate File bisa otomatis menghpaus file lama yang sudah tidak dibutuhkan
+
+New Transport
+Winston juga menyediakan Transport lain (Redis Transport, Syslog, CouchDB, Loggy)
+atau tranport oleh komunitas (Slack Transport, Telegram)
